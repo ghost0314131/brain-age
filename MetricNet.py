@@ -143,4 +143,3 @@ class MetricNet(nn.Module):
         o1, f1 = self.regression(m1)
         o2, f2 = self.regression(m2)
         return o1, o2, m1, m2
-1
