@@ -461,4 +461,3 @@ if __name__ == '__main__':
         os.system('mkdir ./' + args.checkpoint)
     mp.spawn(main, nprocs=args.nprocs, args=(args.nprocs, args))
     print("Done")
-    print("test")
